@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="img" href="pp.jfif">
+</head>
+    
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="C:\kunal\vs code\kunal.html\index2.html">
+                <img src="logo.jfif" width="60" height="65" style="border-radius: 100%;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="" target="_blank">About</a></li>
+                    <li><a href="https://twitter.com/Kunal98398013" target="_blank">Twiter</a></li>
+                    <li><a href="contact us.html" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h style="font-size: 30px;"></h>
+
+        <div class="text-box">
+            <h1> Learn HTML With Kunal</h1>
+            <p>Making webside is one of the easiest thing in the world.You
+                just need to learn HTML , CSS ,<br> Javascript you are good to go.<br><br><br>
+                <a href="practice.html" class="hero-btm"> So, to learn click here</a>
+            </p>
+        </div>
+    </section>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
